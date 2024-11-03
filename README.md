@@ -1,5 +1,25 @@
 # Connection-frontend-and-backend
 
+# FRONTEND
+## STEPS:
+
+1. npm create vite@latest
+2. npm i
+3. For API handeling:- npm i axios
+
+
+# BACKEND
+## STEPS:
+
+1. initialize:- npm init. 
+    change script to `"start": "node server.js"` and add `"type": "module",` after "main"
+2. install express:- npm i express
+3. create server.js
+ 
+
+ and continue with Learnings😊😊...
+
+
 # Proxy
 -A proxy server acts as an intermediary between your computer and the internet. 
 -When you make a request to access a website, the proxy server processes this request on your behalf, retrieves the data from the website, and then sends it back to you. 
