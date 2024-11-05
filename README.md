@@ -9,17 +9,22 @@
 4. install cors: npm i cors
 5. updata vite.config.js wiht
 ```
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'http://localhost:3001' // Adjust the backend URL
+      '/api': {
+        target: "http://localhost:8005",
+        changeOrigin: true,
+        secure: false
+      }
     }
   }
-});
+})
+
 ```
 
 
