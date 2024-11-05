@@ -7,7 +7,7 @@
 2. npm i
 3. For API handeling:- npm i axios
 4. install cors: npm i cors
-5. updata vite.config.js wiht
+5. updata vite.config.js with
 ```
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
